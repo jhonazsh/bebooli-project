@@ -1,0 +1,38 @@
+<main class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+          <div class="list-group">
+              <a *ngFor="let book of books" href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">{{book.title}}</h5>
+                  <small>3 days ago</small>
+                </div>
+                <p class="mb-1">
+                  <a href="">{{book.link}}</a>
+                </p>
+                <small>Agregado por: <b>{{book.added_by}}</b></small>
+              </a>
+
+              <a *ngFor="let book of books" href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">{{book.title}}</h5>
+                    <small>3 days ago</small>
+                  </div>
+                  <p class="mb-1">
+                    <a href="">{{book.link}}</a>
+                  </p>
+                  <small>Agregado por: <b>{{book.added_by}}</b></small>
+                </a>
+              
+            </div>
+
+      </div>
+    </div>
+  </div>
+    
+
+</main>
+
+

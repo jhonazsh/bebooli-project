@@ -5,6 +5,10 @@
 /tmp
 /out-tsc
 
+# firebase config deploy
+firebase.json
+.firebaserc
+
 # dependencies
 /node_modules
 
