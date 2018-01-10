@@ -1,0 +1,57 @@
+
+<div class="container" *ngIf="router.url == '/'">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="list-group">
+                <!-- add component child named book -->
+                <app-book 
+                    class="list-group-item list-group-item-action flex-column align-items-start" 
+                    *ngFor="let book of booksSave"  
+                    [item]="book" 
+                    routerLink="/link-libro-detalle/{{book.id}}">
+                </app-book>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>BeBooLi</h3>
+                <p>
+                    Los mejores enlaces de libros de personas que desean compartir enlaces de buenos libros con buena información para otras personas que lo necesitan.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h3>Puedes Aportar</h3>
+                <p>
+                    Este es un proyecto que se encuentra en constante mejora continua, si eres un desarrollador angular en proceso de aprendizaje, puedes materializar tus conocimientos con nosotros y hacer que esta App Web cresca.
+                </p>
+
+                <h5>Repo en GitHub</h5>
+                <p>
+                    <a href="https://github.com/jhonazsh/bebooli-project">https://github.com/jhonazsh/bebooli-project</a>
+                </p>
+            </div>
+            <div class="col-md-3">
+                   
+                <div><b>Facebook:</b> /jhonazsh</div>
+                <div><b>Instagram:</b> jhonazsh</div>
+                <div><b>Twitter:</b> @jhonazsh</div>
+                <div><b>GitHub:</b> jhonazsh</div>
+                <div><b>E-mail:</b> jhonazsh.17@gmail.com</div>
+                        
+            </div>
+            
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <small>Desarrollado por <b>@jhonazsh</b></small>    
+            </div>
+        </div>
+    </div>
+</footer>

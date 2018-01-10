@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>{{bookMatch.title}}</h2>
+            <br>
+
+            <h5>Resumen:</h5>
+            <p>{{bookMatch.sinopsis}}</p>
+
+            <h5>Link:</h5>
+            <p>
+                <a href="{{bookMatch.link}}">{{bookMatch.link}}</a>
+            </p>
+
+            <h5>Autor:</h5>
+            <p>{{bookMatch.author}}</p>
+
+            <h6>Agregado por:</h6>
+            <p>{{bookMatch.added_by}}</p>
+
+            <button type="button" class="btn btn-outline-danger" (click)="goBack()">Volver</button>
+
+        </div>
+        <!-- <div class="col-md-4">
+            <h5>Otros links relacionados</h5>
+            <p>
+                <a href="{{bookMatch.link}}">{{bookMatch.title}}</a>
+            </p>
+            <p>
+                <a href="{{bookMatch.link}}">{{bookMatch.title}}</a>
+            </p>
+        </div> -->
+    </div>
+</div>

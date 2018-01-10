@@ -3,26 +3,50 @@ import { Book } from '../models/book';
 export const BOOKS: Book[] = [
     {
         id: 1,
-        title: "The Good Practice of Angular",
-        link: "https://angular.io/the-good-practice-of-angular",
-        sinopsis: "Es un libro que muestra las buenas practicas en angular, sobre el manejo del mismo",
-        author: "Juan Solorzano",
+        title: "Mastering TypeScript",
+        link: "http://sd.blackball.lv/library/Mastering_TypeScript_(2017).pdf",
+        sinopsis: "Es un libro que muestra las caracteristicas de TypeScript y su relación con los frameworks javascript",
+        author: "Nathan Rozentals",
         added_by: "Jhon Medina Zapata"
     },
     {
         id: 2,
-        title: "The jQuery Book",
-        link: "https://angular.io/the-good-practice-of-angular",
-        sinopsis: "dfgdgd gdf gdfgd fgdfg dfgdg dfg d",
-        author: "Beto Carreño",
+        title: "ng-book: The Complete Book on Angular 5",
+        link: "https://www.ng-book.com/2/#",
+        sinopsis: "The in-depth, complete, and up-to-date book on Angular 5. Become an Angular 5 expert today.",
+        author: "Nate Murray, Felipe Coury, Ari Lerner, Carlos Taborda",
         added_by: "Jhon Medina Zapata"
     },
     {
         id: 3,
-        title: "The Python Language",
-        link: "https://angular.io/the-good-practice-of-angular",
-        sinopsis: "fgf hdfgh dfghdfg hdfghd ghg fgdfgdfg",
-        author: "Alva Mendoza",
+        title: "Introduction to Algorithms and Data Structures - Introduction to Python 2017",
+        link: "http://cs.brown.edu/courses/cs016/static/files/lectures/slides/pythonIntro.pdf",
+        sinopsis: "Capitulo de un libro para aprender el lenguaje python.",
+        author: "Sin definirse",
+        added_by: "Jhon Medina Zapata"
+    },
+    {
+        id: 4,
+        title: "book 4",
+        link: "http://sd.blackball.lv/library/Mastering_TypeScript_(2017).pdf",
+        sinopsis: "Es un libro que muestra las caracteristicas de TypeScript y su relación con los frameworks javascript",
+        author: "Nathan Rozentals",
+        added_by: "Jhon Medina Zapata"
+    },
+    {
+        id: 5,
+        title: "book 5",
+        link: "https://www.ng-book.com/2/#",
+        sinopsis: "The in-depth, complete, and up-to-date book on Angular 5. Become an Angular 5 expert today.",
+        author: "Nate Murray, Felipe Coury, Ari Lerner, Carlos Taborda",
+        added_by: "Jhon Medina Zapata"
+    },
+    {
+        id: 6,
+        title: "book 6",
+        link: "http://cs.brown.edu/courses/cs016/static/files/lectures/slides/pythonIntro.pdf",
+        sinopsis: "Capitulo de un libro para aprender el lenguaje python.",
+        author: "Sin definirse",
         added_by: "Jhon Medina Zapata"
     }
 ]

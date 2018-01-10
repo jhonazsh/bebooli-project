@@ -5,6 +5,9 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { BookComponent } from './components/book/book.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { BookDetailComponent } from './components/book-detail/book-detail.component';
+import { LayoutComponent } from './components/layout/layout.component';
 
 
 
@@ -12,11 +15,14 @@ import { BookComponent } from './components/book/book.component';
   declarations: [
     AppComponent,
     BookComponent,
+    BookDetailComponent,
+    LayoutComponent,
     
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

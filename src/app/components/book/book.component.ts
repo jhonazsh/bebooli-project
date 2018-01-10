@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Book } from '../../models/book';
+import { Component, OnInit, Input } from '@angular/core';
+//import { Book } from '../../models/book';
 import { BOOKS } from '../../data/list-book';
 
 @Component({
@@ -9,10 +9,19 @@ import { BOOKS } from '../../data/list-book';
 })
 export class BookComponent implements OnInit {
   books = BOOKS;
+  @Input('item') book;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  // onClickBook(book:any[]){
+    
+  // }
+
+  getBook(){
+    
   }
 
 }

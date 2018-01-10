@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h1>{{title}} <span class="searchshow">{{searchShow}}</span></h1>
+                <h1><span class="searchtitle">{{title}}</span> <span class="searchshow">{{searchShow}}</span></h1>
                 <p class="sub-title-header">{{subtitle}} </p>
                 
             </div>
@@ -10,7 +10,28 @@
     </div>
 </header>
 
-<app-book></app-book>
+<!-- <main class="main">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="list-group">
+                    <!-- add component child named book -->
+                    <!--<app-book class="list-group-item list-group-item-action flex-column align-items-start" *ngFor="let book of booksSave" [item]="book" routerLink="/book-detail/{{book.id}}">
+                    </app-book>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</main> -->
+<main class="main">
+<app-layout [booksSave]="booksSave"></app-layout>
+</main>
+
+
+
 
 <div class="search">
     <div class="container">
@@ -20,7 +41,7 @@
       
                 <div class="input-group mb-3">
                     
-                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" [(ngModel)]="searchWord"  (keyup)="onKeyup()" placeholder="Buscar Libro en BebooLi ...">
+                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" [(ngModel)]="searchWord"  (keyup)="onKeyup()" placeholder="Buscar Link en BebooLi ...">
                 
       
                 </div>
