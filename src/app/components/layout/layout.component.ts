@@ -10,7 +10,7 @@ export class LayoutComponent implements OnInit {
 
   @Input('booksSave') booksSave:any[];
 
-  constructor(private router: Router) { }
+  constructor(public router: Router) { }
 
   ngOnInit() {
     console.log(this.booksSave);

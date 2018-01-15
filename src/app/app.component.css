@@ -1,6 +1,10 @@
+body{
+    color: black !important;
+}
+
 header{
     padding: 2em 0;
-    background-color: #f54242;
+    background-color: #3498db;
     position: fixed;
     top: 0;
     width: 100%;
@@ -16,7 +20,7 @@ header{
     bottom: 0;
     width: 100%;
     padding: 1.5em 0;
-    background-color: #f54242;
+    background-color: #3498db;
     z-index: 100;
 }
 .searchshow{
@@ -36,6 +40,12 @@ header{
 
 .form-control {
     border: 1px solid #ffffff;
+}
+a.nav-link{
+    color: white;
+}
+.list-group-item-action {
+    color: black !important;
 }
 
 /*Media Queries - RWD*/

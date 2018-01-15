@@ -1,5 +1,8 @@
 footer{
-    background-color: #e2e2e2;
     margin-top: 1.5em;
     padding: 1.5em 0;
+}
+/* customize bootstrap*/
+.list-group-item-action {
+    color: black !important;
 }

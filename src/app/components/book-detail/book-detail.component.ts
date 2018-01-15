@@ -12,7 +12,7 @@ import { Location } from '@angular/common';
 export class BookDetailComponent implements OnInit {
   id: any;
   books: any[] = BOOKS;
-  bookMatch: any[];
+  bookMatch: any;
 
   constructor(
     private route: ActivatedRoute,

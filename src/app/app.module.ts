@@ -8,6 +8,7 @@ import { BookComponent } from './components/book/book.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { BookDetailComponent } from './components/book-detail/book-detail.component';
 import { LayoutComponent } from './components/layout/layout.component';
+import { NewBookLinkComponent } from './components/new-book-link/new-book-link.component';
 
 
 
@@ -17,6 +18,7 @@ import { LayoutComponent } from './components/layout/layout.component';
     BookComponent,
     BookDetailComponent,
     LayoutComponent,
+    NewBookLinkComponent,
     
   ],
   imports: [
